@@ -3,9 +3,9 @@ var inherits = require('inherits')
 var createIndices = require('quad-indices')
 var buffer = require('three-buffer-vertex-data')
 var assign = require('object-assign')
-
 var vertices = require('./lib/vertices')
 var utils = require('./lib/utils')
+var THREE = require('three')
 
 var Base = THREE.BufferGeometry
 

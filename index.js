@@ -5,7 +5,9 @@ var buffer = require('three-buffer-vertex-data')
 var assign = require('object-assign')
 var vertices = require('./lib/vertices')
 var utils = require('./lib/utils')
-var Base = require('three').BufferGeometry
+var THREE = require('three')
+
+var Base = THREE.BufferGeometry
 
 module.exports = function createTextGeometry (opt) {
   return new TextGeometry(opt)

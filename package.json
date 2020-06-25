@@ -1,5 +1,5 @@
 {
-  "name": "three-bmfont-text",
+  "name": "@socialtables/three-bmfont-text",
   "version": "2.1.0",
   "description": "renders BMFont files in ThreeJS with word-wrapping",
   "main": "index.js",
